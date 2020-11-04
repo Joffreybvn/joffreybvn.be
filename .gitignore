@@ -203,3 +203,9 @@ _site/
 .sass-cache/
 .jekyll-cache/
 .jekyll-metadata
+.idea/.gitignore
+.idea/joffreybvn.be.iml
+.idea/misc.xml
+.idea/modules.xml
+.idea/vcs.xml
+docs/README.md
