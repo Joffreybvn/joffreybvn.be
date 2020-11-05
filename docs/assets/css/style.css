@@ -36,6 +36,22 @@ h2 a {
     text-decoration-color: #464646;
 }
 
+hr {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    border-width: 0;
+    opacity: initial;
+    height: unset !important;
+    border-top: 1px solid rgb(56, 61, 64);
+}
+
+@media (max-width: 1080px) {
+    hr {
+        margin-left: 6%;
+        margin-right: 6%;
+    }
+}
+
 .col-md-3, .col-md-9 {
     padding-left: 0;
     padding-right: 0;
@@ -48,9 +64,9 @@ h2 a {
     margin: 0 auto;
 }
 
-.main-container {
+.header-container {
     padding-top: 5px;
-    padding-bottom: 5px;
+    padding-bottom: 20px;
 }
 
 .profile-circle {
@@ -70,6 +86,13 @@ h2 a {
     }
 }
 
+@media (max-width: 768px) {
+
+    .profile-picture {
+        display: none;
+    }
+}
+
 .profile-details-row {
     margin: 0 0 0 5%;
 }
@@ -81,4 +104,45 @@ h2 a {
 .subtitle-wrapper {
     margin-top: 5px;
     margin-bottom: 10px;
+}
+
+.social-wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+.social-wrapper a {
+    display: block;
+    margin-right: 20px;
+    width: 32px;
+    height: 32px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.social-wrapper a:hover, .social-wrapper a:focus {
+    filter: invert(60%) sepia(19%) saturate(5173%) hue-rotate(189deg) brightness(109%) contrast(98%);
+}
+
+#social-twitter {
+    background-image: url("../img/icons/twitter.svg");
+}
+
+#social-github {
+    background-image: url("../img/icons/github.svg");
+}
+
+#social-linkedin {
+    background-image: url("../img/icons/linkedin-in.svg");
+}
+
+#social-email {
+    background-image: url("../img/icons/envelope.svg");
+}
+
+.nav-item {
+    display: flex;
+    justify-content: center;
+    margin: 10px 50px;
 }
