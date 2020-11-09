@@ -5,8 +5,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
-    <meta name="author" content="Joffrey Bienvenu">
-    <title>Joffrey Bienvenu</title>
+    <meta name="author" content="{{ site.full_name }}">
+    <title>{% contentblock page-title %}{{ site.title }}</title>
     <link rel="canonical" href="https://joffreybvn.be">
 
     <link href="./assets/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -22,7 +22,7 @@
     <!-- Header -->
     <div class="container header-container">
         <div class="row">
-            
+            {% contentblock header no-convert %}
         </div>
     </div>
     <hr>
@@ -30,7 +30,7 @@
     <!-- Content -->
     <div class="container">
         <div class="row">
-            
+            {% contentblock content no-convert %}
         </div>
     </div>
 </main>

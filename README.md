@@ -1,5 +1,10 @@
 # Personal website: [joffreybvn.be](https://joffreybvn.be)
 
+```Python
+bundle exec jekyll serve
+bundle exec jekyll build
+```
+
 Example CV:
  - https://github.com/nodunayo/cv
  - https://github.com/Kjir/cv

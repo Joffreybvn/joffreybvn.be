@@ -133,12 +133,19 @@ hr {
     background-image: url("../img/icons/github.svg");
 }
 
+#social-kaggle {
+    background-image: url("../img/icons/kaggle.svg");
+    height: 31px;
+}
+
 #social-linkedin {
     background-image: url("../img/icons/linkedin-in.svg");
+    margin-top: 1px;
 }
 
 #social-email {
     background-image: url("../img/icons/envelope.svg");
+    margin-top: 1px;
 }
 
 .nav-item {
