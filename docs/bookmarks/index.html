@@ -5,14 +5,16 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
-    <meta name="author" content="{{ site.full_name }}">
-    <title>{% contentblock page-title no-convert %}{{ site.title }}</title>
+    <meta name="author" content="Joffrey Bienvenu">
+    <title>
+    Bookmarks -
+Joffrey Bienvenu</title>
     <link rel="canonical" href="https://joffreybvn.be">
 
-    <link href="{{base}}/assets/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/assets/dist/css/bootstrap.min.css" rel="stylesheet">
 
-    <link href="{{base}}/assets/css/style.css" rel="stylesheet">
-    <link href="{{base}}/assets/fonts/fonts.css" rel="stylesheet">
+    <link href="/assets/css/style.css" rel="stylesheet">
+    <link href="/assets/fonts/fonts.css" rel="stylesheet">
 </head>
 
 <body>
@@ -22,7 +24,14 @@
     <!-- Header -->
     <div class="container header-container">
         <div class="row">
-            {% contentblock header no-convert %}
+            
+    <div class="title-wrapper col-xs-12">
+        <h1>Useful resources,</h1>
+    </div>
+    <div class="subtitle-cat-wrapper col-xs-12">
+        <h2>and bookmarks that you may find interesting.</h2>
+    </div>
+
         </div>
     </div>
 
@@ -31,7 +40,7 @@
     <!-- Content -->
     <div class="container">
         <div class="row">
-            {% contentblock content no-convert %}
+            
         </div>
     </div>
 </main>

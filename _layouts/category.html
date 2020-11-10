@@ -1,0 +1,18 @@
+---
+layout: default
+---
+
+{% include base.html %}
+
+{% contentfor page-title %}
+    {{ page.title }} -
+{% endcontentfor %}
+
+{% contentfor header %}
+    <div class="title-wrapper col-xs-12">
+        <h1>{{ page.title_long }}</h1>
+    </div>
+    <div class="subtitle-cat-wrapper col-xs-12">
+        <h2>{{ page.subtitle }}</h2>
+    </div>
+{% endcontentfor %}

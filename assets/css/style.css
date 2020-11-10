@@ -9,6 +9,7 @@ body {
     background-color: #181a1b;
     color: #e8e6e3;
     font-family: 'Lato', serif;
+    overflow-x: hidden;
 }
 
 a {
@@ -34,6 +35,15 @@ h2 {
 h2 a {
     text-decoration: underline;
     text-decoration-color: #464646;
+}
+
+h5 {
+    font-size: 28px;
+    font-weight: revert;
+    letter-spacing: 1px;
+    margin-bottom: 0;
+    line-height: 28px;
+    margin-top: 7px;
 }
 
 hr {
@@ -91,17 +101,21 @@ hr {
     .profile-picture {
         display: none;
     }
+
+    .title-wrapper, .subtitle-cat-wrapper {
+        margin-left: 5%;
+    }
 }
 
 .profile-details-row {
     margin: 0 0 0 5%;
 }
 
-.name-wrapper {
+.name-wrapper, .title-wrapper {
     margin-top: 40px;
 }
 
-.subtitle-wrapper {
+.subtitle-wrapper, .subtitle-cat-wrapper {
     margin-top: 5px;
     margin-bottom: 10px;
 }
@@ -152,4 +166,69 @@ hr {
     display: flex;
     justify-content: center;
     margin: 10px 50px;
+}
+
+.card-bg-image {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#project-wallonia-ml {
+    background-image: url("../img/thumbnails/wallonia_ml.png");
+}
+
+#lib-lidario {
+    background-image: url("../img/thumbnails/lidario_cover.png");
+}
+
+#lib-pd-similarity{
+    background-image: url("../img/thumbnails/pandas-similarity_cover.png");
+}
+
+.a-card, .a-card:hover, .a-card:focus {
+    text-decoration: none;
+    color: inherit;
+}
+
+.a-card p {
+    margin-bottom: 0.60rem;
+}
+
+.a-card .card-body {
+    padding-bottom: 0.7rem !important;
+}
+
+.a-card-image {
+    width: 33.33%;
+}
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.img-badges img {
+    margin-right: 10px;
+}
+
+.img-symbol {
+    display: flex;
+    justify-content: space-between;
+}
+
+.img-symbol span {
+    display: block;
+}
+
+.img-symbol img {
+    margin-top: -5px;
+    margin-right: 3px;
+    height: 20px;
+}
+
+.img-symbol span img:last-child {
+    margin-right: 0;
 }
