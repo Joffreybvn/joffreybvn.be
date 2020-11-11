@@ -27,7 +27,7 @@ permalink: /projects/
                             <p class="card-text">
                                 <small class="text-muted img-symbol">
                                     <span>3D mesh API: <img title="Python" src="../assets/img/symbols/python.svg"> <img title="Flask" src="../assets/img/symbols/flask.svg"></span>
-                                    <span>Website: <img title="HTML5" src="../assets/img/symbols/html5.svg"> <img title="Javascript" src="../assets/img/symbols/javascript.svg"> <img title="ThreeJS" src="../assets/img/symbols/threejs.png"></span>
+                                    <span>Website: <img title="HTML5" src="../assets/img/symbols/html5.svg"> <img title="Javascript" src="../assets/img/symbols/javascript.svg"> <img title="ThreeJS" src="../assets/img/symbols/threejs.webp"></span>
                                     <span>Data storage: <img title="Backblaze B2" src="../assets/img/symbols/backblaze.svg"></span>
                                 </small>
                             </p>
@@ -85,7 +85,7 @@ permalink: /projects/
                             <p class="card-text">
                                 <small class="text-muted img-symbol">
                                     <span>Platform: <img title="Python" src="../assets/img/symbols/python.svg"> <img title="Jupyter Notebook" src="../assets/img/symbols/jupyter.svg"></span>
-                                    <span>Analysis: <img title="Pandas" src="../assets/img/symbols/pandas.svg"> <img title="Numpy" src="../assets/img/symbols/numpy.png"> <img title="Matplotlib" src="../assets/img/symbols/matplotlib.svg"> <img title="Seaborn" src="../assets/img/symbols/seaborn.png"></span>
+                                    <span>Analysis: <img title="Pandas" src="../assets/img/symbols/pandas.svg"> <img title="Numpy" src="../assets/img/symbols/numpy.webp"> <img title="Matplotlib" src="../assets/img/symbols/matplotlib.svg"> <img title="Seaborn" src="../assets/img/symbols/seaborn.webp"></span>
                                     <span></span>
                                 </small>
                             </p>
@@ -102,7 +102,7 @@ permalink: /projects/
         <div class="card mb-3 bg-dark">
             <div class="row g-0">
                 <a class="a-card a-card-image" href="https://github.com/Joffreybvn/wine-quality-analysis">
-                    <div class="col-md-4 card-bg-image" id="project-wallonia-ml"></div>
+                    <div class="col-md-4 card-bg-image" id="project-red-wine"></div>
                 </a>
                 <div class="col-md-8">
                     <div class="card-header">
@@ -117,7 +117,7 @@ permalink: /projects/
                             <p class="card-text">
                                 <small class="text-muted img-symbol">
                                     <span>Platform: <img title="Python" src="../assets/img/symbols/python.svg"> <img title="Google Colab" src="../assets/img/symbols/colab.ico"></span>
-                                    <span>Analysis: <img title="Pandas" src="../assets/img/symbols/pandas.svg"> <img title="Matplotlib" src="../assets/img/symbols/matplotlib.svg"> <img title="Seaborn" src="../assets/img/symbols/seaborn.png"></span>
+                                    <span>Analysis: <img title="Pandas" src="../assets/img/symbols/pandas.svg"> <img title="Matplotlib" src="../assets/img/symbols/matplotlib.svg"> <img title="Seaborn" src="../assets/img/symbols/seaborn.webp"></span>
                                     <span></span>
                                 </small>
                             </p>
@@ -132,7 +132,7 @@ permalink: /projects/
         <div class="card mb-3 bg-dark">
             <div class="row g-0">
                 <a class="a-card a-card-image" href="https://github.com/Joffreybvn/alan-turing">
-                    <div class="col-md-4 card-bg-image" id="project-wallonia-ml"></div>
+                    <div class="col-md-4 card-bg-image" id="project-discord-bot"></div>
                 </a>
                 <div class="col-md-8">
                     <div class="card-header">
@@ -146,7 +146,7 @@ permalink: /projects/
                             <p class="card-text">Discord bot to automate attendances and send alarms to Becode's students. Made for the Turing 4.22 class. Fork it, and start to clock through Discord !</p>
                             <p class="card-text">
                                 <small class="text-muted img-symbol">
-                                    <span>Software: <img title="Python" src="../assets/img/symbols/python.svg"> <img title="Discord.py" src="../assets/img/symbols/discord.png"></span>
+                                    <span>Software: <img title="Python" src="../assets/img/symbols/python.svg"> <img title="Discord.py" src="../assets/img/symbols/discord.webp"></span>
                                 </small>
                             </p>
                         </div>
@@ -160,7 +160,7 @@ permalink: /projects/
         <div class="card mb-3 bg-dark">
             <div class="row g-0">
                 <a class="a-card a-card-image" href="https://github.com/Joffreybvn/CompressedBlocks">
-                    <div class="col-md-4 card-bg-image" id="project-wallonia-ml"></div>
+                    <div class="col-md-4 card-bg-image" id="project-compressed-blocks"></div>
                 </a>
                 <div class="col-md-8">
                     <div class="card-header">
@@ -174,7 +174,7 @@ permalink: /projects/
                             <p class="card-text">A Minecraft mod and plugin to compress and uncompress blocks like Stone, Cobblestone, Wood, Sand, ... Save your time, you space, and carry more stuff.</p>
                             <p class="card-text">
                                 <small class="text-muted img-symbol">
-                                    <span>Software: <img title="Java" src="../assets/img/symbols/java.svg"> <img title="Bukkit" src="../assets/img/symbols/bukkit.png"></span>
+                                    <span>Software: <img title="Java" src="../assets/img/symbols/java.svg"> <img title="Bukkit" src="../assets/img/symbols/bukkit.webp"></span>
                                 </small>
                             </p>
                         </div>

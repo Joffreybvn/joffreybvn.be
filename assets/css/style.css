@@ -179,23 +179,35 @@ hr {
 }
 
 #project-wallonia-ml {
-    background-image: url("../img/thumbnails/wallonia_ml.png");
+    background-image: url("../img/thumbnails/wallonia_ml.webp");
 }
 
 #project-zimmo {
-    background-image: url("../img/thumbnails/zimmo_cover.png");
+    background-image: url("../img/thumbnails/zimmo_cover.webp");
 }
 
 #project-real-estate {
-    background-image: url("../img/thumbnails/real-estate-analysis_cover.png");
+    background-image: url("../img/thumbnails/real-estate-analysis_cover.webp");
+}
+
+#project-red-wine {
+    background-image: url("../img/thumbnails/red-wine_cover.webp");
+}
+
+#project-discord-bot {
+    background-image: url("../img/thumbnails/discord-bot_cover.webp");
+}
+
+#project-compressed-blocks {
+    background-image: url("../img/thumbnails/compressed-blocks_cover.webp");
 }
 
 #lib-lidario {
-    background-image: url("../img/thumbnails/lidario_cover.png");
+    background-image: url("../img/thumbnails/lidario_cover.webp");
 }
 
 #lib-pd-similarity {
-    background-image: url("../img/thumbnails/pandas-similarity_cover.png");
+    background-image: url("../img/thumbnails/pandas-similarity_cover.webp");
 }
 
 .a-card, .a-card:hover, .a-card:focus {
