@@ -19,7 +19,7 @@ permalink: /libraries/
                         <a class="a-card" href="https://lidario.readthedocs.io/">
                             <h5>Lidario</h5>
                         </a>
-                        <button type="button" class="btn btn-primary btn-light" onclick="window.location.href='https://github.com/Joffreybvn/lidario'">See on Github</button>
+                        <button type="button" class="btn btn-dark fixed-btn" onclick="window.location.href='https://github.com/Joffreybvn/lidario'">See on Github</button>
                     </div>
                     <a class="a-card" href="https://lidario.readthedocs.io/">
                         <div class="card-body">
@@ -48,7 +48,7 @@ permalink: /libraries/
                         <a class="a-card" href="https://pypi.org/project/pandas-similarity/">
                             <h5>Pandas-similarity</h5>
                         </a>
-                        <button type="button" class="btn btn-primary btn-light" onclick="window.location.href='https://github.com/Joffreybvn/pandas-similarity'">See on Github</button>
+                        <button type="button" class="btn btn-dark fixed-btn" onclick="window.location.href='https://github.com/Joffreybvn/pandas-similarity'">See on Github</button>
                     </div>
                     <a class="a-card" href="https://pypi.org/project/pandas-similarity/">
                         <div class="card-body">
@@ -65,8 +65,7 @@ permalink: /libraries/
         </div>
     </div>
     
-    <div class="col-xs-12">
-        
+    <div class="col-xs-12 nav-bottom">
+        <h2><< <a href="../">Go back</a></h2>
     </div>
-    
 {% endcontentfor %}

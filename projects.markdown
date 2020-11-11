@@ -19,7 +19,7 @@ permalink: /projects/
                         <a class="a-card" href="https://wallonia.ml/">
                             <h5>Wallonia.ml</h5>
                         </a>
-                        <button type="button" class="btn btn-primary btn-light" onclick="window.location.href='https://github.com/Joffreybvn/wallonia-ml'">See on Github</button>
+                        <button type="button" class="btn btn-dark fixed-btn" onclick="window.location.href='https://github.com/Joffreybvn/wallonia-ml'">See on Github</button>
                     </div>
                     <a class="a-card" href="https://wallonia.ml/">
                         <div class="card-body">
@@ -49,7 +49,7 @@ permalink: /projects/
                         <a class="a-card" href="https://github.com/Joffreybvn/bot-scrape-zimmo">
                             <h5>Scraping Bot for Zimmo.be</h5>
                         </a>
-                        <button type="button" class="btn btn-primary btn-light" onclick="window.location.href='https://github.com/Joffreybvn/bot-scrape-zimmo'">See on Github</button>
+                        <button type="button" class="btn btn-dark fixed-btn" onclick="window.location.href='https://github.com/Joffreybvn/bot-scrape-zimmo'">See on Github</button>
                     </div>
                     <a class="a-card" href="https://github.com/Joffreybvn/bot-scrape-zimmo">
                         <div class="card-body">
@@ -77,7 +77,7 @@ permalink: /projects/
                         <a class="a-card" href="https://github.com/Joffreybvn/real-estate-data-analysis">
                             <h5>Data analysis: Belgium real estate</h5>
                         </a>
-                        <button type="button" class="btn btn-primary btn-light" onclick="window.location.href='https://github.com/Joffreybvn/real-estate-data-analysis'">See on Github</button>
+                        <button type="button" class="btn btn-dark fixed-btn" onclick="window.location.href='https://github.com/Joffreybvn/real-estate-data-analysis'">See on Github</button>
                     </div>
                     <a class="a-card" href="https://github.com/Joffreybvn/real-estate-data-analysis">
                         <div class="card-body">
@@ -109,7 +109,7 @@ permalink: /projects/
                         <a class="a-card" href="https://github.com/Joffreybvn/wine-quality-analysis">
                             <h5>Data analysis: Red wine quality</h5>
                         </a>
-                        <button type="button" class="btn btn-primary btn-light" onclick="window.location.href='https://github.com/Joffreybvn/wine-quality-analysis'">See on Github</button>
+                        <button type="button" class="btn btn-dark fixed-btn" onclick="window.location.href='https://github.com/Joffreybvn/wine-quality-analysis'">See on Github</button>
                     </div>
                     <a class="a-card" href="https://github.com/Joffreybvn/wine-quality-analysis">
                         <div class="card-body">
@@ -139,7 +139,7 @@ permalink: /projects/
                         <a class="a-card" href="https://github.com/Joffreybvn/alan-turing">
                             <h5>Alan Turing, a Discord Bot</h5>
                         </a>
-                        <button type="button" class="btn btn-primary btn-light" onclick="window.location.href='https://github.com/Joffreybvn/alan-turing'">See on Github</button>
+                        <button type="button" class="btn btn-dark fixed-btn" onclick="window.location.href='https://github.com/Joffreybvn/alan-turing'">See on Github</button>
                     </div>
                     <a class="a-card" href="https://github.com/Joffreybvn/alan-turing">
                         <div class="card-body">
@@ -167,7 +167,7 @@ permalink: /projects/
                         <a class="a-card" href="https://github.com/Joffreybvn/CompressedBlocks">
                             <h5>MC plugin: Compressed blocks</h5>
                         </a>
-                        <button type="button" class="btn btn-primary btn-light" onclick="window.location.href='https://github.com/Joffreybvn/CompressedBlocks'">See on Github</button>
+                        <button type="button" class="btn btn-dark fixed-btn" onclick="window.location.href='https://github.com/Joffreybvn/CompressedBlocks'">See on Github</button>
                     </div>
                     <a class="a-card" href="https://github.com/Joffreybvn/CompressedBlocks">
                         <div class="card-body">
@@ -182,6 +182,10 @@ permalink: /projects/
                 </div>
             </div>
         </div>
+    </div>
+    
+    <div class="col-xs-12 nav-bottom">
+        <h2><< <a href="../">Go back</a></h2>
     </div>
     
 {% endcontentfor %}
