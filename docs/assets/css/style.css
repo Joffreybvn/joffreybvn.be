@@ -174,17 +174,27 @@ hr {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    border-top-left-radius: 0.25rem;
+    border-bottom-left-radius: 0.25rem;
 }
 
 #project-wallonia-ml {
     background-image: url("../img/thumbnails/wallonia_ml.png");
 }
 
+#project-zimmo {
+    background-image: url("../img/thumbnails/zimmo_cover.png");
+}
+
+#project-real-estate {
+    background-image: url("../img/thumbnails/real-estate-analysis_cover.png");
+}
+
 #lib-lidario {
     background-image: url("../img/thumbnails/lidario_cover.png");
 }
 
-#lib-pd-similarity{
+#lib-pd-similarity {
     background-image: url("../img/thumbnails/pandas-similarity_cover.png");
 }
 
@@ -231,4 +241,8 @@ hr {
 
 .img-symbol span img:last-child {
     margin-right: 0;
+}
+
+.in-category-hr {
+    margin-top: 48px;
 }

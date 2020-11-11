@@ -42,21 +42,139 @@ permalink: /projects/
         <div class="card mb-3 bg-dark">
             <div class="row g-0">
                 <a class="a-card a-card-image" href="https://github.com/Joffreybvn/bot-scrape-zimmo">
-                    <div class="col-md-4 card-bg-image" id="project-wallonia-ml"></div>
+                    <div class="col-md-4 card-bg-image" id="project-zimmo"></div>
                 </a>
                 <div class="col-md-8">
                     <div class="card-header">
                         <a class="a-card" href="https://github.com/Joffreybvn/bot-scrape-zimmo">
-                            <h5>Scraping Bot - Zimmo.be</h5>
+                            <h5>Scraping Bot for Zimmo.be</h5>
                         </a>
                         <button type="button" class="btn btn-primary btn-light" onclick="window.location.href='https://github.com/Joffreybvn/bot-scrape-zimmo'">See on Github</button>
                     </div>
                     <a class="a-card" href="https://github.com/Joffreybvn/bot-scrape-zimmo">
                         <div class="card-body">
-                            <p class="card-text">Scraping bot to retrieve the 100.000+ sale offer from zimmo.be. This bot clean and retun a CSV dataset, ready for data analysis.</p>
+                            <p class="card-text">Scraping bot to retrieve the 100.000+ sale offer from zimmo.be. This bot clean and retun a CSV dataset, ready for data analysis. Developed in a group of 3 students.</p>
                             <p class="card-text">
                                 <small class="text-muted img-symbol">
                                     <span>Software: <img title="Python" src="../assets/img/symbols/python.svg"> <img title="Selenium" src="../assets/img/symbols/selenium.svg"></span>
+                                </small>
+                            </p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="col-xs-12">
+        <div class="card mb-3 bg-dark">
+            <div class="row g-0">
+                <a class="a-card a-card-image" href="https://github.com/Joffreybvn/real-estate-data-analysis">
+                    <div class="col-md-4 card-bg-image" id="project-real-estate"></div>
+                </a>
+                <div class="col-md-8">
+                    <div class="card-header">
+                        <a class="a-card" href="https://github.com/Joffreybvn/real-estate-data-analysis">
+                            <h5>Data analysis: Belgium real estate</h5>
+                        </a>
+                        <button type="button" class="btn btn-primary btn-light" onclick="window.location.href='https://github.com/Joffreybvn/real-estate-data-analysis'">See on Github</button>
+                    </div>
+                    <a class="a-card" href="https://github.com/Joffreybvn/real-estate-data-analysis">
+                        <div class="card-body">
+                            <p class="card-text">Deep analysis and interpretation of a 50.000 entries dataset about real estate in Belgium. Discorver on a map the best places to buy the house of your dreams !</p>
+                            <p class="card-text">
+                                <small class="text-muted img-symbol">
+                                    <span>Platform: <img title="Python" src="../assets/img/symbols/python.svg"> <img title="Jupyter Notebook" src="../assets/img/symbols/jupyter.svg"></span>
+                                    <span>Analysis: <img title="Pandas" src="../assets/img/symbols/pandas.svg"> <img title="Numpy" src="../assets/img/symbols/numpy.png"> <img title="Matplotlib" src="../assets/img/symbols/matplotlib.svg"> <img title="Seaborn" src="../assets/img/symbols/seaborn.png"></span>
+                                    <span></span>
+                                </small>
+                            </p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <hr class="in-category-hr">
+    
+    <div class="col-xs-12">
+        <div class="card mb-3 bg-dark">
+            <div class="row g-0">
+                <a class="a-card a-card-image" href="https://github.com/Joffreybvn/wine-quality-analysis">
+                    <div class="col-md-4 card-bg-image" id="project-wallonia-ml"></div>
+                </a>
+                <div class="col-md-8">
+                    <div class="card-header">
+                        <a class="a-card" href="https://github.com/Joffreybvn/wine-quality-analysis">
+                            <h5>Data analysis: Red wine quality</h5>
+                        </a>
+                        <button type="button" class="btn btn-primary btn-light" onclick="window.location.href='https://github.com/Joffreybvn/wine-quality-analysis'">See on Github</button>
+                    </div>
+                    <a class="a-card" href="https://github.com/Joffreybvn/wine-quality-analysis">
+                        <div class="card-body">
+                            <p class="card-text">Small but complete analysis of a red wine quality dataset. See which are the criterias that influence the quality of red wine, and find out which are the best one.</p>
+                            <p class="card-text">
+                                <small class="text-muted img-symbol">
+                                    <span>Platform: <img title="Python" src="../assets/img/symbols/python.svg"> <img title="Google Colab" src="../assets/img/symbols/colab.ico"></span>
+                                    <span>Analysis: <img title="Pandas" src="../assets/img/symbols/pandas.svg"> <img title="Matplotlib" src="../assets/img/symbols/matplotlib.svg"> <img title="Seaborn" src="../assets/img/symbols/seaborn.png"></span>
+                                    <span></span>
+                                </small>
+                            </p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="col-xs-12">
+        <div class="card mb-3 bg-dark">
+            <div class="row g-0">
+                <a class="a-card a-card-image" href="https://github.com/Joffreybvn/alan-turing">
+                    <div class="col-md-4 card-bg-image" id="project-wallonia-ml"></div>
+                </a>
+                <div class="col-md-8">
+                    <div class="card-header">
+                        <a class="a-card" href="https://github.com/Joffreybvn/alan-turing">
+                            <h5>Alan Turing, a Discord Bot</h5>
+                        </a>
+                        <button type="button" class="btn btn-primary btn-light" onclick="window.location.href='https://github.com/Joffreybvn/alan-turing'">See on Github</button>
+                    </div>
+                    <a class="a-card" href="https://github.com/Joffreybvn/alan-turing">
+                        <div class="card-body">
+                            <p class="card-text">Discord bot to automate attendances and send alarms to Becode's students. Made for the Turing 4.22 class. Fork it, and start to clock through Discord !</p>
+                            <p class="card-text">
+                                <small class="text-muted img-symbol">
+                                    <span>Software: <img title="Python" src="../assets/img/symbols/python.svg"> <img title="Discord.py" src="../assets/img/symbols/discord.png"></span>
+                                </small>
+                            </p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="col-xs-12">
+        <div class="card mb-3 bg-dark">
+            <div class="row g-0">
+                <a class="a-card a-card-image" href="https://github.com/Joffreybvn/CompressedBlocks">
+                    <div class="col-md-4 card-bg-image" id="project-wallonia-ml"></div>
+                </a>
+                <div class="col-md-8">
+                    <div class="card-header">
+                        <a class="a-card" href="https://github.com/Joffreybvn/CompressedBlocks">
+                            <h5>MC plugin: Compressed blocks</h5>
+                        </a>
+                        <button type="button" class="btn btn-primary btn-light" onclick="window.location.href='https://github.com/Joffreybvn/CompressedBlocks'">See on Github</button>
+                    </div>
+                    <a class="a-card" href="https://github.com/Joffreybvn/CompressedBlocks">
+                        <div class="card-body">
+                            <p class="card-text">A Minecraft mod and plugin to compress and uncompress blocks like Stone, Cobblestone, Wood, Sand, ... Save your time, you space, and carry more stuff.</p>
+                            <p class="card-text">
+                                <small class="text-muted img-symbol">
+                                    <span>Software: <img title="Java" src="../assets/img/symbols/java.svg"> <img title="Bukkit" src="../assets/img/symbols/bukkit.png"></span>
                                 </small>
                             </p>
                         </div>
