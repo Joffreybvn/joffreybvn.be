@@ -21,15 +21,15 @@
 title: Joffrey Bienvenu
 email: joffreybvn@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Machine Learning student at BeCode.org,
+  developing Python libraries,
+  traveling around Colombia.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://joffreybvn.be" # the base hostname & protocol for your site, e.g. http://example.com
 
 twitter_username: joffreybvn
 github_username: joffreybvn
-kaggle_username: joffeybvn
+medium_username: joffreybvn
 linkedin_username: joffreybvn
 
 full_name: Joffrey Bienvenu

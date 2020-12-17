@@ -158,6 +158,10 @@ hr {
     height: 31px;
 }
 
+#social-medium {
+    background-image: url("../img/icons/medium-m.svg");
+}
+
 #social-linkedin {
     background-image: url("../img/icons/linkedin-in.svg");
     margin-top: 1px;
@@ -222,6 +226,10 @@ hr {
 
 #lib-pd-similarity {
     background-image: url("../img/thumbnails/pandas-similarity_cover.webp");
+}
+
+#writing-medium-library {
+    background-image: url("../img/thumbnails/medium_library_article.webp");
 }
 
 .a-card, .a-card:hover, .a-card:focus {
