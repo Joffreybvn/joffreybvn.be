@@ -108,7 +108,7 @@ hr {
         display: none;
     }
 
-    .title-wrapper, .subtitle-cat-wrapper {
+    .title-wrapper, .subtitle-cat-wrapper, .subtitle-in-content {
         margin-left: 5%;
     }
 }
@@ -123,6 +123,11 @@ hr {
 
 .subtitle-wrapper, .subtitle-cat-wrapper {
     margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.subtitle-in-content {
+    margin-top: 40px;
     margin-bottom: 10px;
 }
 
@@ -202,6 +207,10 @@ hr {
 
 #project-zimmo {
     background-image: url("../img/thumbnails/zimmo_cover.webp");
+}
+
+#project-deep-writing {
+    background-image: url("../img/thumbnails/deep_detect_handwriting.webp");
 }
 
 #project-real-estate {

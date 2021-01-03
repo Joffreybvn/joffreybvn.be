@@ -8,6 +8,10 @@ permalink: /projects/
 
 {% contentfor content %}
 
+    <div class="subtitle-cat-wrapper col-xs-12">
+        <h2>ML & Big Data:</h2>
+    </div>
+
     <div class="col-xs-12">
         <div class="card mb-3 bg-dark">
             <div class="row g-0">
@@ -23,12 +27,41 @@ permalink: /projects/
                     </div>
                     <a class="a-card" href="https://wallonia.ml/">
                         <div class="card-body">
-                            <p class="card-text">Display any walloon property in 3D, directly in the browser, by simply entering an address. Vizualize and get details about more than 1.3 million of houses !</p>
+                            <p class="card-text">Get a 3D visualization and a price prediction of any walloon property, thanks to AI. Built on top of 100GB+ of LIDAR raster data, and contains 1.3 million of houses.</p>
                             <p class="card-text">
                                 <small class="text-muted img-symbol">
                                     <span>3D mesh API: <img title="Python" src="../assets/img/symbols/python.svg"> <img title="Flask" src="../assets/img/symbols/flask.svg"></span>
                                     <span>Website: <img title="HTML5" src="../assets/img/symbols/html5.svg"> <img title="Javascript" src="../assets/img/symbols/javascript.svg"> <img title="ThreeJS" src="../assets/img/symbols/threejs.webp"></span>
                                     <span>Data storage: <img title="Backblaze B2" src="../assets/img/symbols/backblaze.svg"></span>
+                                </small>
+                            </p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-xs-12">
+        <div class="card mb-3 bg-dark">
+            <div class="row g-0">
+                <a class="a-card a-card-image" href="https://deepwriting.joffreybvn.be/">
+                    <div class="col-md-4 card-bg-image" id="project-deep-writing"></div>
+                </a>
+                <div class="col-md-8">
+                    <div class="card-header">
+                        <a class="a-card" href="https://deepwriting.joffreybvn.be/">
+                            <h5>Deep detect handwriting</h5>
+                        </a>
+                    </div>
+                    <a class="a-card" href="https://deepwriting.joffreybvn.be/">
+                        <div class="card-body">
+                            <p class="card-text">Python web app based on a CNN model and the mnist dataset, to recognize the digit that you draw on the canvas. Try it out on mobile !</p>
+                            <p class="card-text">
+                                <small class="text-muted img-symbol">
+                                    <span>Software: <img title="Python" src="../assets/img/symbols/python.svg"></span>
+                                    <span>Model: <img title="Keras" src="../assets/img/symbols/keras.svg"></span>
+                                    <span></span>
                                 </small>
                             </p>
                         </div>
@@ -53,7 +86,7 @@ permalink: /projects/
                     </div>
                     <a class="a-card" href="https://github.com/Joffreybvn/bot-scrape-zimmo">
                         <div class="card-body">
-                            <p class="card-text">Scraping bot to retrieve the 100.000+ sale offer from zimmo.be. This bot clean and retun a CSV dataset, ready for data analysis. Developed in a group of 3 students.</p>
+                            <p class="card-text">Scraping bot to retrieve the 100.000+ sale offers from zimmo.be. This bot clean and retun a CSV dataset, ready for data analysis and model creation.</p>
                             <p class="card-text">
                                 <small class="text-muted img-symbol">
                                     <span>Software: <img title="Python" src="../assets/img/symbols/python.svg"> <img title="Selenium" src="../assets/img/symbols/selenium.svg"></span>
@@ -64,6 +97,10 @@ permalink: /projects/
                 </div>
             </div>
         </div>
+    </div>
+
+    <div class="subtitle-in-content col-xs-12">
+        <h2>Data analysis:</h2>
     </div>
     
     <div class="col-xs-12">
@@ -95,9 +132,8 @@ permalink: /projects/
             </div>
         </div>
     </div>
-    
-    <hr class="in-category-hr">
-    
+ 
+
     <div class="col-xs-12">
         <div class="card mb-3 bg-dark">
             <div class="row g-0">
@@ -126,6 +162,10 @@ permalink: /projects/
                 </div>
             </div>
         </div>
+    </div>
+
+    <div class="subtitle-in-content col-xs-12">
+        <h2>Other softwares:</h2>
     </div>
     
     <div class="col-xs-12">
