@@ -17,12 +17,14 @@ import wineImage from "../images/projects/wine.png"
 import zimmoImage from "../images/projects/zimmo.png"
 import chatbotImage from "../images/projects/chatbot.png"
 import blocksImage from "../images/projects/blocks.png"
+import {Helmet} from "react-helmet";
 
 
 const ProjectsPage = () => {
 
     return (
         <main>
+            <Helmet title="Joffrey Bienvenu" defer={false} />
 
             {/* Header */}
             <header>

@@ -1,7 +1,8 @@
 module.exports = {
   siteMetadata: {
     title: "Joffrey Bienvenu",
-    siteUrl: 'https://joffreybvn.be'
+    siteUrl: 'https://joffreybvn.be',
+    description: 'Joffrey Bienvenu'
   },
   plugins: [
     "gatsby-plugin-sass",

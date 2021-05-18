@@ -1,6 +1,7 @@
 
 import * as React from "react"
 import { StaticImage } from "gatsby-plugin-image"
+import {Helmet} from "react-helmet";
 import SocialBar from '../components/social_bar/bar'
 import Menu from '../components/menu/menu'
 import {
@@ -17,6 +18,7 @@ import "../css/styles.scss"
 const IndexPage = () => {
     return (
         <main>
+            <Helmet title="Joffrey Bienvenu" defer={false} />
 
             {/* Header */}
             <header className={header_grid}>
