@@ -35,6 +35,7 @@ $hover-color-filter: invert(60%) sepia(19%) saturate(5173%) hue-rotate(189deg) b
 h3 {
   grid-area: title;
   font-size: 28px;
+  overflow-wrap: anywhere;
 }
 
 .card_image {
@@ -95,6 +96,7 @@ h3 {
   font-size: 16px;
   font-weight: inherit;
   line-height: 16px;
+  overflow-wrap: anywhere;
 }
 
 .card_links a:before {
@@ -198,5 +200,12 @@ h3 {
 
   .tag_cloud {
     grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media(max-width: 375px) {
+
+  .tag_cloud {
+    grid-template-columns: repeat(1, 1fr);
   }
 }
