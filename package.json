@@ -10,7 +10,7 @@
   "scripts": {
     "develop": "gatsby develop",
     "start": "gatsby develop",
-    "build": "gatsby build",
+    "build": "gatsby build && rsync -av --delete public/ docs",
     "serve": "gatsby serve",
     "clean": "gatsby clean"
   },
@@ -30,5 +30,8 @@
     "react-dom": "^17.0.1",
     "react-helmet": "^6.1.0",
     "sass": "^1.32.13"
+  },
+  "devDependencies": {
+    "rsync": "^0.6.1"
   }
 }
