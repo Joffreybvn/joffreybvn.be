@@ -7,9 +7,10 @@ module.exports = {
   plugins: [
     "gatsby-plugin-sass",
     {
-      resolve: "gatsby-plugin-google-analytics",
+      resolve: "gatsby-plugin-google-tagmanager",
       options: {
-        trackingId: "G-NYHF9SNK2T",
+        id: "GTM-NKNXDX5",
+        includeInDevelopment: false,
       },
     },
     {
