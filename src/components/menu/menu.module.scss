@@ -1,0 +1,13 @@
+
+.menu {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-row-gap: 13px;
+  grid-column-gap: 0;
+}
+
+.menu > a {
+  font-size: 24px;
+  letter-spacing: 1.1px;
+  text-align: center;
+}

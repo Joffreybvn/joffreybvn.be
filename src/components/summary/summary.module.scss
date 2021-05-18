@@ -1,0 +1,33 @@
+
+$hover-color-filter: invert(60%) sepia(19%) saturate(5173%) hue-rotate(189deg) brightness(109%) contrast(98%);
+
+.summary {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-row-gap: 5px;
+  grid-column-gap: 0;
+}
+
+.summary > a {
+  display: grid;
+  grid-template-columns: 20px calc(100% - 20px);
+  grid-template-rows: 1fr;
+  grid-column-gap: 5px;
+  font-size: 18px;
+  letter-spacing: 1.1px;
+}
+
+.summary > a:before {
+  display: block;
+  content: "";
+  width: 20px;
+  height: 20px;
+  align-self: center;
+  background-image: url("../../images/arrow_right.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.summary > a:hover:before, .summary > a:focus:before {
+  filter: $hover-color-filter
+}

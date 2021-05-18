@@ -1,0 +1,202 @@
+
+$text-color: #464646;
+$hover-color-filter: invert(60%) sepia(19%) saturate(5173%) hue-rotate(189deg) brightness(109%) contrast(98%);
+
+.card_wrapper {
+  font-family: "Lato", sans-serif;
+  width: 100%;
+  border: 1px solid $text-color;
+  border-radius: 6px;
+  padding: 30px;
+  background: #272727;
+}
+
+.card_header {
+  display: grid;
+  grid-template-areas:
+    "icon title image"
+    "subtitle subtitle image"
+    "tagcloud tagcloud image";
+  grid-template-columns: 45px calc(100% - 45px - 200px - 40px) 200px; // calc: 100% - icon - image - gap*2
+  // grid-template-rows: 45px auto;
+  grid-column-gap: 20px;
+  grid-row-gap: 10px;
+}
+
+.card_icon {
+  grid-area: icon;
+  align-self: center;
+  width: 42px;
+  height: 42px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+h3 {
+  grid-area: title;
+  font-size: 28px;
+}
+
+.card_image {
+  grid-area: image;
+  width: 200px;
+  height: 127px;
+  border-radius: 5px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.card_subtitle {
+  grid-area: subtitle;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.tag_cloud {
+  grid-area: tagcloud;
+  display: grid;
+  padding-top: 10px;
+  grid-template-columns: repeat(4, 1fr);
+  // grid-auto-flow: column;
+  grid-row-gap: 8px;
+  grid-column-gap: 15px;
+  opacity: 0.7;
+}
+
+.tag_cloud > div {
+  display: flex;
+  line-height: 14px;
+  font-size: 16px;
+}
+
+.tag_cloud > div:before {
+  display: block;
+  content: "";
+  width: 15px;
+  height: 15px;
+  margin-right: 5px;
+  background-image: url("./dot.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.card_links {
+  display: grid;
+  grid-column-gap: 20px;
+  padding-top: 30px;
+  font-weight: 300;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.card_links > a {
+  display: flex;
+  font-size: 16px;
+  font-weight: inherit;
+  line-height: 16px;
+}
+
+.card_links a:before {
+  display: block;
+  content: "";
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.card_links a:hover:before, .card_links a:focus:before {
+  filter: $hover-color-filter;
+}
+
+.link_github:before {
+  background-image: url("./github.svg");
+}
+
+.link_website:before {
+  background-image: url("./globe.svg");
+}
+
+.link_package:before {
+  background-image: url("./cube.svg");
+}
+
+.link_docs:before {
+  background-image: url("./docs.svg");
+}
+
+/* Responsiveness - Override previous settings */
+
+@media(min-width: 970px) {
+  .one_tag_container {
+    grid-template-areas: "site1 site1 site1"
+  }
+
+  .one_tag_container > a:nth-child(1) {
+    grid-area: site1;
+  }
+
+  .two_tag_container {
+    grid-template-areas: "site1 site2 site2"
+  }
+
+  .two_tag_container > a:nth-child(1) {
+    grid-area: site1;
+  }
+
+  .two_tag_container > a:nth-child(2) {
+    grid-area: site2;
+  }
+
+  .three_tag_container {
+    grid-template-areas: "site1 site2 site3"
+  }
+
+  .three_tag_container > a:nth-child(1) {
+    grid-area: site1;
+  }
+
+  .three_tag_container > a:nth-child(2) {
+    grid-area: site2;
+  }
+
+  .three_tag_container > a:nth-child(3) {
+    grid-area: site3;
+  }
+}
+
+@media(max-width: 1040px) {
+
+  .tag_cloud {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media(max-width: 969px) {
+
+  .card_links {
+    grid-template-columns: 1fr;
+    grid-row-gap: 5px;
+  }
+}
+
+@media(max-width: 769px) {
+
+  .card_header {
+    grid-template-areas:
+      "icon title"
+      "subtitle subtitle"
+      "tagcloud tagcloud";
+    grid-template-columns: 45px calc(100% - 45px - 20px); // calc: 100% - icon - gap
+  }
+
+  .card_image {
+    display: none;
+  }
+
+  .tag_cloud {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

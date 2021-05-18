@@ -1,0 +1,15 @@
+
+$hover-color-filter: invert(60%) sepia(19%) saturate(5173%) hue-rotate(189deg) brightness(109%) contrast(98%);
+
+.social_button {
+    display: block;
+    width: 32px;
+    height: 32px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.social_button:hover, .social_button:focus {
+    filter: $hover-color-filter
+}

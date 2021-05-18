@@ -1,0 +1,56 @@
+
+/* Header */
+
+.header_grid {
+  display: grid;
+  grid-template-areas:
+    "picture name"
+    "picture tagline"
+    "picture social";
+  grid-column-gap: 70px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.author_picture {
+  grid-area: picture;
+  align-self: center;
+  border-radius: 50%
+}
+
+.author_name {
+  grid-area: name;
+  align-self: end;
+}
+
+.author_tagline {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  grid-area: tagline;
+  font-size: 24px;
+  letter-spacing: 1.1px;
+  line-height: 1.2;
+  min-height: 70px;
+  padding-bottom: 15px;
+}
+
+.social {
+  grid-area: social;
+  align-self: self-start;
+}
+
+/* Responsiveness - Override previous settings */
+
+@media(max-width: 769px) {
+
+  .header_grid {
+    grid-template-areas:
+    "name"
+    "tagline"
+    "social";
+  }
+
+  .author_picture {
+    display: none;
+  }
+}

@@ -1,0 +1,8 @@
+
+.social_bar {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-column-gap: 20px;
+  grid-row-gap: 0;
+  width: fit-content;
+}
