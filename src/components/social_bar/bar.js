@@ -9,11 +9,12 @@ import SocialButton from '../social_button/button'
  * @param github username Your Github username.
  * @param medium handler Your Medium handle.
  * @param linkedin username Your LinkedIn username.
+ * @param itchio username Your ItchIO username.
  * @param email email Your email address.
  * @param className style Class name containing styles to add to container div.
  * @returns {JSX.Element} SocialBar A SocialBar element containing SocialButtons.
  */
-const SocialBar = ({twitter, github, medium, linkedin, email, className}) => {
+const SocialBar = ({twitter, github, medium, linkedin, itchio, email, className}) => {
 
     /**
      * Count and return the number of provided handles.
@@ -26,6 +27,7 @@ const SocialBar = ({twitter, github, medium, linkedin, email, className}) => {
         if (github) { amount += 1}
         if (medium) { amount += 1}
         if (linkedin) { amount += 1}
+        if (itchio) { amount += 1}
         if (email) { amount += 1}
 
         return amount
@@ -53,6 +55,11 @@ const SocialBar = ({twitter, github, medium, linkedin, email, className}) => {
             return <SocialButton site="linkedin" url={`https://www.linkedin.com/in/${linkedin}/`} title={`in/${linkedin}`}/>
         }
     }
+    const itchio_button = () => {
+        if (itchio) {
+            return <SocialButton site="itchio" url={`https://${itchio}.itch.io/`} title={itchio}/>
+        }
+    }
     const email_button = () => {
         if (email) {
             return <SocialButton site="email" url={`mailto:${email}`} title={email}/>
@@ -63,10 +70,11 @@ const SocialBar = ({twitter, github, medium, linkedin, email, className}) => {
 
     return (
         <div style={{ gridTemplateColumns: `repeat(${buttons()}, 1fr)` }} className={`${social_bar} ${className}`} >
-            {twitter_button()}
             {github_button()}
             {medium_button()}
             {linkedin_button()}
+            {twitter_button()}
+            {itchio_button()}
             {email_button()}
         </div>
     )

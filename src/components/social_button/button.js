@@ -8,6 +8,7 @@ import kaggle from './kaggle.svg'
 import linkedin from './linkedin.svg'
 import medium from './medium.svg'
 import twitter from './twitter.svg'
+import itchio from './itchio.svg'
 
 
 const icons = {
@@ -16,7 +17,8 @@ const icons = {
     "kaggle": kaggle,
     "linkedin": linkedin,
     "medium": medium,
-    "twitter": twitter
+    "twitter": twitter,
+    "itchio": itchio
 }
 
 /**

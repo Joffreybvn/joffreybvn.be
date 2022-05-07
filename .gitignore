@@ -209,3 +209,5 @@ _site/
 .idea/modules.xml
 .idea/vcs.xml
 docs/README.md
+/public/
+/node_modules/

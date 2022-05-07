@@ -35,8 +35,8 @@ const IndexPage = () => {
                 />
                 <h1 className={author_name}>Joffrey Bienvenu</h1>
                 <p className={author_tagline}>
-                    Optimizing Computer Vision models @<a href="https://www.aerospacelab.be/">Aerospacelab</a>,
-                    developing <a href="https://lidario.readthedocs.io/">softwares</a> in Python, C++ & NodeJS,
+                    Developing and deploying a modern data infrastructure @<a href="https://www.serviceplan.be/">Mediascale</a>,
+                    creating <a href="https://lidario.readthedocs.io/">softwares</a> in Python, C++ & NodeJS,
                     traveling around Colombia.
                 </p>
                 <SocialBar
@@ -44,6 +44,7 @@ const IndexPage = () => {
                     github="joffreybvn"
                     medium="joffreybvn"
                     linkedin="joffreybvn"
+                    itchio="joffreybvn"
                     email="joffreybvn@gmail.com"
                     className={social}
                 />
