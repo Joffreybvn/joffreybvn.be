@@ -35,8 +35,8 @@ const IndexPage = () => {
                 />
                 <h1 className={author_name}>Joffrey Bienvenu</h1>
                 <p className={author_tagline}>
-                    Developing and deploying a modern data infrastructure @<a href="https://www.serviceplan.be/">Mediascale</a>,
-                    creating <a href="https://lidario.readthedocs.io/">softwares</a> in Python, C++ & NodeJS,
+                    Developing and deploying a modern data infrastructure @<a href="https://infrabel.be/">Infrabel</a>,
+                    creating <a href="https://lidario.readthedocs.io/">softwares</a> in Python, Rust & NodeJS,
                     traveling around Colombia.
                 </p>
                 <SocialBar
